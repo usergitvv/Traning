@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>List</title>
+<style>
+p[title|="home"]{color: green; background-color: blue;}
+div {background-color: orange; border: 1px solid #000; padding-left: 20px; padding-bottom: 10px;}
+</style>
+</head>
+<body>
+<nav>Содержание сайта
+<ol>
+<li>Пункт один</li>
+<li>Пункт два</li>
+<li>Пункт три</li>
+</ol>
+</nav>
+<pre>
+
+</pre>
+<button type="button" name="pushme" autofocus value="send">Отправить</button>
+<p title="home">Это абзац один</p>
+<p title="home-two">Это абзац два</p>
+<p title="home three">Третий абзац</p>
+<pre>
+
+</pre>
+<div>
+<p style="font-size: large;">Выберете ваш аэропорт:</p>
+<form method="post" target="_self">
+<input type="text" list="airports">
+<datalist id="airports">
+<option value="Ekaterinburg(CVX)">Екатеринбург</option>
+<option value="Irkutsk(IKT)">Иркутск</option>
+<option value="Yerevan(EVN)">Ереван</option>
+<option value="Челябинск(CEK)">Chelyabinsk</option>
+<option value="Москва(MOW)">Moscow</option>
+<option value="Новосибирск(OVB)">Novosibirsk</option>
+<option value="Санкт-Петербург(LED)">Sankt-Petersburg</option>
+</datalist>
+<pre>
+</pre>
+<input type="reset" value="Очистить">
+<pre>
+</pre>
+<input type="submit" value="Отправить">
+</form>
+</div>
+</body>
+</html>
